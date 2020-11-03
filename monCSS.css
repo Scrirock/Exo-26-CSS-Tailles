@@ -7,6 +7,10 @@ a{
     color: darkgreen;
 }
 
+a:hover{
+    cursor: grab;
+}
+
 .shadow{
     text-shadow: 9px 8px 6px rgba(0, 0, 0, 1);
 }
@@ -17,6 +21,10 @@ ul li:nth-child(odd){
 
 ul li:nth-child(even){
     font-weight: bold;
+}
+
+li{
+    list-style-type: georgian;
 }
 
 p{
