@@ -1,0 +1,38 @@
+body{
+    color: coral;
+}
+
+a{
+    text-decoration-line: none;
+    color: darkgreen;
+}
+
+.shadow{
+    text-shadow: 9px 8px 6px rgba(0, 0, 0, 1);
+}
+
+ul li:nth-child(odd){
+    font-style: italic;
+}
+
+ul li:nth-child(even){
+    font-weight: bold;
+}
+
+p{
+    margin: 15px;
+    padding: 20px;
+    text-indent: 50px;
+}
+
+.cadre{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+img{
+    float: right;
+    width: 400px;
+}
